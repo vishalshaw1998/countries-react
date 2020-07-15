@@ -11,7 +11,11 @@ function App() {
         (state, action) => {
             switch (action.do) {
                 case "INIT":
-                    return { ...state, countriesOfWorld: action.data };
+                    return {
+                        ...state,
+                        countriesOfWorld: action.data,
+                        countriesToDisplay: action.data.slice(0, 10),
+                    };
                 case "CHANGE_DROP_VALUE":
                     return {
                         ...state,
