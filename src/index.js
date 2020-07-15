@@ -27,8 +27,6 @@ function App() {
                         first: 0,
                         valueInDrop: action.data,
                     };
-                case "CHANGE_INPUT_VALUE":
-                    return { ...state, inputValue: action.data };
                 case "RIGHT_CLICKED":
                     return {
                         ...state,
@@ -61,7 +59,8 @@ function App() {
                                     items.name === action.data ||
                                     items.population === action.data ||
                                     items.alpha2Code === action.data ||
-                                    items.alpha3Code === action.data
+                                    items.alpha3Code === action.data ||
+                                    items.capital === action.data
                                 );
                             }
                         ),
