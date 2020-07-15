@@ -1,0 +1,37 @@
+.space-around {
+    justify-content: space-around;
+}
+.body {
+    margin-top: 25px;
+}
+input {
+    line-height: 35px;
+}
+.btn {
+    margin-bottom: 6px;
+}
+.card-body {
+    margin-top: 5px;
+}
+header {
+    background-color: black;
+    padding-bottom: 25px;
+}
+header h1 {
+    font-family: "Grenze Gotisch", cursive;
+    font-size: 60px;
+    color: white;
+}
+.name {
+    font-family: "Merriweather", serif;
+}
+.borders {
+    font-family: "Sora", sans-serif;
+}
+.background-white {
+    background-color: white;
+}
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
